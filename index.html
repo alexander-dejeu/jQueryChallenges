@@ -15,10 +15,17 @@
     <!-- Templates -->
     <script id="project-template" type="text/x-handlebars-template">
         <div id="{{id}}" class="product">
-            <img src="{{image}}">
-            <h1>{{title}}</h1>
-            <div class="body">
-                <p>{{desc}}</p>
+            <div class = "big-box">
+                <img src="{{image}}">
+            </div>
+            <div class = "small-box-a">
+                <div class="body">
+                    <p>{{desc}}</p>
+                </div>
+                
+            </div>
+            <div class = "small-box-b">
+                <h1>{{title}}</h1>
             </div>
         </div>
     </script>

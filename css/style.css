@@ -1,0 +1,25 @@
+.product{
+    width: 900px;
+    height: 600px;
+    margin: auto;
+}
+.big-box{
+    height: 100%;
+    width: 66.66%;
+    float: left;
+}
+.big-box img{
+    height: 100%;
+    width: 100%;
+}
+.small-box-a, .small-box-b{
+    float: left;
+    height: 50%;
+    width: 33.33%;
+}
+.small-box-a {
+    background-color: aqua;
+}
+.small-box-b{
+    background-color: azure;
+}
