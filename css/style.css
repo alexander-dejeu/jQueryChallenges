@@ -6,17 +6,27 @@
 .big-box{
     height: 100%;
     width: 66.66%;
-    float: left;
 }
 .big-box img{
     height: 100%;
     width: 100%;
 }
 .small-box-a, .small-box-b{
-    float: left;
     height: 50%;
     width: 33.33%;
 }
+
+.product:nth-child(2n) .big-box,
+.product:nth-child(2n) .small-box-a,
+.product:nth-child(2n) .small-box-b {
+    float: left;
+}
+.product:nth-child(2n+1) .big-box,
+.product:nth-child(2n+1) .small-box-a,
+.product:nth-child(2n+1) .small-box-b {
+    float: right;
+}
+
 .small-box-a {
     background-color: aqua;
 }
